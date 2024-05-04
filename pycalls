@@ -1,0 +1,74 @@
+python 2_BuildAllModels.py --dropout --swag --multiswag --model mlp --dataset A --n_hidden 1024 --dropout_rate 0.05 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model mlp --dataset A --n_hidden 1024 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model mlp --dataset A --n_hidden 1024 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model mlp --dataset A --n_hidden 2048 --dropout_rate 0.05 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model mlp --dataset A --n_hidden 2048 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model mlp --dataset A --n_hidden 2048 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model mlp --dataset C --n_hidden 1024 --dropout_rate 0.05 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model mlp --dataset C --n_hidden 1024 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model mlp --dataset C --n_hidden 1024 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model mlp --dataset C --n_hidden 2048 --dropout_rate 0.05 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model mlp --dataset C --n_hidden 2048 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model mlp --dataset C --n_hidden 2048 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model lstm --dataset A --n_hidden 1024 --dropout_rate 0.05 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model lstm --dataset A --n_hidden 1024 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model lstm --dataset A --n_hidden 1024 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model lstm --dataset A --n_hidden 2048 --dropout_rate 0.05 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model lstm --dataset A --n_hidden 2048 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model lstm --dataset A --n_hidden 2048 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model lstm --dataset C --n_hidden 1024 --dropout_rate 0.05 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model lstm --dataset C --n_hidden 1024 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model lstm --dataset C --n_hidden 1024 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model lstm --dataset C --n_hidden 2048 --dropout_rate 0.05 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model lstm --dataset C --n_hidden 2048 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model lstm --dataset C --n_hidden 2048 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model convlstm --dataset A --n_hidden 1024 --dropout_rate 0.05 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model convlstm --dataset A --n_hidden 1024 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model convlstm --dataset A --n_hidden 1024 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model convlstm --dataset A --n_hidden 2048 --dropout_rate 0.05 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model convlstm --dataset A --n_hidden 2048 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model convlstm --dataset A --n_hidden 2048 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model convlstm --dataset C --n_hidden 1024 --dropout_rate 0.05 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model convlstm --dataset C --n_hidden 1024 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model convlstm --dataset C --n_hidden 1024 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model convlstm --dataset C --n_hidden 2048 --dropout_rate 0.05 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model convlstm --dataset C --n_hidden 2048 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --dropout --swag --multiswag --model convlstm --dataset C --n_hidden 2048 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots --swag_lr 0.005,0.001,0.05
+python 2_BuildAllModels.py --ensemble --nllbaseline --model mlp --dataset A --n_hidden 128 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model mlp --dataset A --n_hidden 128 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model mlp --dataset A --n_hidden 256 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model mlp --dataset A --n_hidden 256 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model mlp --dataset C --n_hidden 128 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model mlp --dataset C --n_hidden 128 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model mlp --dataset C --n_hidden 256 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model mlp --dataset C --n_hidden 256 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model lstm --dataset A --n_hidden 128 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model lstm --dataset A --n_hidden 128 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model lstm --dataset A --n_hidden 256 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model lstm --dataset A --n_hidden 256 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model lstm --dataset C --n_hidden 128 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model lstm --dataset C --n_hidden 128 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model lstm --dataset C --n_hidden 256 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model lstm --dataset C --n_hidden 256 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model convlstm --dataset A --n_hidden 128 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model convlstm --dataset A --n_hidden 128 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model convlstm --dataset A --n_hidden 256 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model convlstm --dataset A --n_hidden 256 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model convlstm --dataset C --n_hidden 128 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model convlstm --dataset C --n_hidden 128 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model convlstm --dataset C --n_hidden 256 --dropout_rate 0.1 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --ensemble --nllbaseline --model convlstm --dataset C --n_hidden 256 --dropout_rate 0.3 --epochs 250 --grid_search --skip_plots
+python 2_BuildAllModels.py --model dummy --dataset A --epochs 1
+python 2_BuildAllModels.py --model dummy --dataset C --epochs 1
+
+
+
+# SWAGs
+python 2_BuildAllModels.py --dropout --swag --multiswag --model mlp --dataset A --n_hidden 256 --dropout_rate 0.3 --epochs 250 --swag_lr 0.1,0.5
+python 2_BuildAllModels.py --dropout --swag --multiswag --model mlp --dataset C --n_hidden 256 --dropout_rate 0.3 --epochs 250 --swag_lr 0.1,0.5
+
+
+
+## MLPs
+python 2_BuildAllModels.py --ensemble --nllbaseline --model mlp --dataset A --n_hidden 256 --dropout_rate 0.1 --epochs 250
+python 2_BuildAllModels.py --ensemble --nllbaseline --model mlp --dataset C --n_hidden 256 --dropout_rate 0.1 --epochs 250
